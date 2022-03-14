@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi primera pagina</title>
+    <style>
+        table,th,td{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table style="border: 3px solid red; width:300px;">
+        <thead>
+            <tr>
+                <th>Precio</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mesa</td>
+                <td>15,50</td>
+            </tr>
+            <tr>
+                <td>Silla</td>
+                <td>5,50</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>Total: 21,00</td>
+        </tfoot>
+    </table>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+    
+    <!-- ul es lista no ordena -->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        
+    </ul>
+    <!-- ol es lista ordenada -->
+    <ol>
+        <li value="50" >Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>
+            <ol>
+                <li style="list-style-type: lower-roman">sub elemento 1</li>
+                <li style="list-style-type: lower-alpha;">sub elemento 1</li>
+                <li style="list-style-type: lower-alpha;">sub elemento 1</li>
+
+            </ol>
+        </li>
+    </ol>
+
+
+    <form action="/formulario" method="POST">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="nombre"/>
+        <br>
+        <label for="comentario">comentario</label>
+        <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="ingrese comentario">Este es un valor por defecto</textarea>
+        <br>
+        <input type="submit"/>
+        <br>
+        <button type="button">Tipo botón</button>
+        <button type="reset">Tipo reset</button>
+        <button type="submit">Tipo submit</button>
+        <button><img src="Animales-tiernos-ab.jpg" width="50"></button>
+
+    </form>
+    <h1>Mi primer heading</h1>
+    <h2>Mi segundo heading</h2>
+    <h3>Mi tercer heading</h3>
+    <h4>Mi cuarto heading</h4>
+    <h5>Mi quinto heading</h5>
+    <h6>Chanchito feliz</h6>
+    <p>Chanchito feliz está muy feliz.</p>
+    <p>Chanchito triste está muy triste.</p>
+    <hr>
+    <h2>Chanchito Felipe</h2>
+    <p>Estamos en clase. <br>Aprendiendo programación</p>
+    <p>Salimos <span style="color:blue">en 30 minutos.</span></p>
+    <!-- Este texto es un comentario y no va 
+    a aparecer en el explorador-->
+    <a target="blank" href="https://www.google.es">Ir a google</a>
+    <br>
+    <img src="img/Animales-tiernos-ab.jpg" height="400"/>
+    
+
+</body>
+</html>
